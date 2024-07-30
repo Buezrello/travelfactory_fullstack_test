@@ -1,0 +1,40 @@
+# Ignore node_modules and build directories from frontend
+/frontend/node_modules/
+/frontend/build/
+
+/frontend/.env
+
+# Ignore target directory and other build artifacts from backend
+/backend/target/
+/backend/*.log
+/backend/.env
+
+# Common system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+*.iml
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS generated files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# Ignore specific files/directories for frontend and backend
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+backend/logs
+backend/*.log
+backend/*.class
+backend/*.war
+backend/*.ear
+backend/.env
